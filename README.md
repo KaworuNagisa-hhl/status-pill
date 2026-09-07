@@ -62,10 +62,34 @@ SwiftUIStatusPill({
 })
 ```
 
+## SwiftUI 风格链式配置
+
+```ts
+import { swiftUIConfig, SwiftUITone } from theme
+
+const glassStyle = swiftUIConfig()
+  .withTone(SwiftUITone.SystemGray)
+  .withWidth(92%)
+  .withHeight(auto)
+  .withRadius(8)
+  .withFillColor(#E6111111)
+  .withTintColor(#22FFFFFF)
+  .withBorder(#33FFFFFF, 1)
+  .withShadow(#33000000, 16)
+  .withPadding(12)
+
+SwiftUIStatusPill({
+  config: glassStyle
+})
+```
+
+`config` 是可选入口，适合复用一组 SwiftUI modifier 风格的外观配置；原有直接传参方式仍然可用，且业务可以继续通过 Builder 注入自定义内容。
+
 ## API
 
 | 参数 | 类型 | 默认值 | 说明 |
 | --- | --- | --- | --- |
+| `config` | `SwiftUIComponentConfig` | 空配置 | SwiftUI modifier 风格链式配置，可覆盖宽高、圆角、颜色、边框、阴影、内边距等通用外观 |
 | `title` | `ResourceStr` | `''` | 胶囊文本 |
 | `icon` | `ResourceStr` | `''` | 可选前缀图标字符 |
 | `color` | `ResourceColor` | 黑色主色 | 文本和强调色 |
