@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "status_pill",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
