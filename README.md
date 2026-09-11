@@ -14,16 +14,6 @@
 ohpm install status-pill
 ```
 
-本地源码依赖：
-
-```json5
-{
-  "dependencies": {
-    "status-pill": "file:../status-pill",
-    "theme": "file:../theme"
-  }
-}
-```
 
 ## 正常使用样式
 
