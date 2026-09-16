@@ -9,16 +9,16 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/KaworuNagisa-hhl/status-pill",
   "keywords": [
-    "OpenHarmony",
-    "HarmonyOS",
-    "ArkUI",
-    "like-ios",
-    "ios-like",
-    "kaworunagisa_hhl",
+    "openharmony",
+    "harmonyos",
+    "arkui",
+    "ui",
+    "component",
     "status",
     "pill",
     "badge",
-    "tag"
+    "tag",
+    "label"
   ],
   "dependencies": {
     "@kaworunagisa_hhl/theme": "file:../theme"
