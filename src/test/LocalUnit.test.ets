@@ -1,5 +1,5 @@
 import { describe, it, expect } from '@ohos/hypium'
-import { swiftUIColorWithOpacity } from 'theme'
+import { swiftUIColorWithOpacity } from '@kaworunagisa_hhl/theme'
 
 export default function localUnitTest() {
   describe('SwiftUIStatusPill', () => {

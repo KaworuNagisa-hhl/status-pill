@@ -7,7 +7,7 @@ import {
   swiftUIColorWithOpacity,
   SwiftUIComponentConfig,
   SwiftUITone
-} from 'theme'
+} from '@kaworunagisa_hhl/theme'
 
 @Component
 export struct SwiftUIStatusPill {
