@@ -1,4 +1,4 @@
-import { SwiftUIStatusPill } from '@kaworunagisa_hhl/status-pill'
+import { SwiftUIStatusPill } from 'status-pill'
 
 @Component
 export struct SwiftUIStatusPillUsage {
