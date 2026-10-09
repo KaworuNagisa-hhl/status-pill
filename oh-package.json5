@@ -1,7 +1,7 @@
 {
   "modelVersion": "6.0.2",
   "name": "status-pill",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "OpenHarmony/HarmonyOS ArkUI like-ios 状态胶囊组件，适合在线状态、任务状态与轻量标签展示。提供 homepage、example 示例目录与清晰的 README 使用说明。",
   "main": "Index.ets",
   "author": { "name": "KaworuNagisa-hhl", "url": "https://github.com/KaworuNagisa-hhl" },
